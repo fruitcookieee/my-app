@@ -21,6 +21,10 @@ export default function About() {
             Home Page
           </h1>
 
+          <Link href="/projects" className="text-sm font-medium text-zinc-500 hover:text-black dark:hover:text-white transition">
+            View Projects →
+          </Link>
+
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Looking for a starting point or more instructions? Head over to{" "}
             <a
